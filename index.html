@@ -630,7 +630,7 @@ function render() {
     }
   } else {
     // Level 3: protection options with special styling
-    var protOpts = ['国家一级保护', '国家二级保护', '未列入保护名录'];
+    var protOpts = ['国家一级保护', '国家二级保护', '都不是~'];
     var protStyles = ['prot-l1', 'prot-l2', 'prot-none'];
     for (var i = 0; i < protOpts.length; i++) {
       var opt = protOpts[i];
@@ -775,7 +775,7 @@ function renderStart() {
   html += '<div style="margin-bottom:8px;">🐦 <strong>第二关 · 辨科高手</strong>（10题）</div>';
   html += '<div style="margin-left:20px;margin-bottom:12px;">随机鸟名，选出正确的<strong>科</strong></div>';
   html += '<div style="margin-bottom:8px;">🛡️ <strong>第三关 · 保护级别</strong>（16题）</div>';
-  html += '<div style="margin-left:20px;">随机鸟名，选出正确的<strong>保护级别</strong>（一级/二级/未列入）</div>';
+  html += '<div style="margin-left:20px;">随机鸟名，选出正确的<strong>保护级别</strong>（一级/二级）</div>';
   html += '</div>';
   html += '<button class="btn btn-primary" data-start="1" style="margin-top:12px;font-size:18px;padding:15px 40px;">🌿 开始挑战</button>';
   html += '<p style="margin-top:12px;font-size:12px;color:#a0b8a0;">共 ' + BIRD_DATA.birds.length + ' 种鸟类 · ' + BIRD_DATA.orders.length + ' 个目 · ' + BIRD_DATA.families.length + ' 个科</p>';
